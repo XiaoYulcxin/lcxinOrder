@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小宇生活-懂得生活懂得你"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_welcome_title"
+        android:src="@drawable/market"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tv_welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="XYWager"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/tv_welcome"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:text="2020 Lcxin提供最终解释权"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp" />
+</RelativeLayout>
